@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Alex: Weather API</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://erikflowers.github.io/weather-icons/css/weather-icons.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <label>City: </label>
+<input type="text" class="form-control" id="city" 
+       placeholder="Enter a city" value="Berkeley" />
+<button class="btn btn-primary" id="search">Search</button>
+
+<div id="output" class="fade">
+    
+    <div class="panel panel-info">
+        
+        <div class="panel-heading">
+            <h2 class="panel-title">Weather for <span class="temp-city"></span></h2>
+        </div>
+    
+        <div class="panel-body">
+            <div class="weather"></div>
+            <p class="desc"></p>
+            <h3 class="main-temp"></h3>
+            <h5 class="temp-min-max"></h5>
+            <p class="temp-main"><span id="date"></span></p>
+<!--             <p class="sun"><span id="date"></span></p> -->
+        </div>
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

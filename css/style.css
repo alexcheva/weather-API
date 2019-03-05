@@ -1,0 +1,48 @@
+body {
+  margin: 30px;
+/*   background: url("http://www.twitpaper.com/wp-content/uploads/sites/8/2014/01/1389272877_Clouds_Pattern.jpg"); */
+}/*
+cool weather icons here:
+https://erikflowers.github.io/weather-icons/
+*/
+.wi {
+  color: black;
+  font-size: 22px;
+}
+
+.wi-day-sunny {
+  color: orange;
+}
+label {
+  width: 40px;
+  text-align: right;
+  margin: 10px;
+}
+.form-control {
+  display: inline-block;
+  width: 200px;
+}
+.panel {
+    width: 340px;
+    margin-left: 10px;
+}
+#output {
+    margin-top: 20px;
+}
+.panel-body {
+    text-align: center;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/9e/90/0f/9e900f91bdc3bb33b9d0a513ef4222a8.jpg");
+ background-position: right center;
+    
+}
+.icon {
+    width: 75px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+}
+.txt-cont{
+    margin-top: -10px;
+    font-size: 15px;
+    
+}
